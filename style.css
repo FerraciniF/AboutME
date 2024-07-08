@@ -13,8 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(100, 100, 100);
-    height: 30%;
-    width: 25vw;
+    height: 32%;
+    width: 20vw;
     margin: auto;
     border-radius: 5px;
     place-items: center;
@@ -25,10 +25,9 @@ body {
     display: flex;
     justify-content: center;
     padding: 5%;
-    height: 10%;
     width: max-content;
     border-radius: 5px;
-    font-size: 1vh;
+    font-size: 2vh;
 }
 .links{
     display: flex;
@@ -49,4 +48,28 @@ body {
 a img{
     height: 3vh;
     border-radius: 5px;
+}
+@media screen and (max-width: 1000px ){
+    .topnick {
+        font-size: 1.5vh;
+    }
+
+}
+@media screen and (max-width: 833px ){
+    .topnick {
+        font-size: 1.3vh;
+    }
+
+}
+@media screen and (max-width: 733px ){
+    .topnick {
+        font-size: 1vh;
+    }
+
+}
+@media screen and (max-width: 433px ){
+    .topnick {
+        font-size: 0.9vh;
+    }
+
 }
