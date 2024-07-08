@@ -20,14 +20,18 @@ body {
     place-items: center;
 }
 .topnick {
-    margin-top: 2%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
     padding: 5%;
+    margin-top: 1%;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 2vw;
     width: max-content;
-    border-radius: 5px;
-    font-size: 2vh;
+}
+@media screen and (max-width: 600px ){
+    .topnick {
+        width: min-content;
+    }
+    
 }
 .links{
     display: flex;
@@ -48,28 +52,4 @@ body {
 a img{
     height: 3vh;
     border-radius: 5px;
-}
-@media screen and (max-width: 1000px ){
-    .topnick {
-        font-size: 1.5vh;
-    }
-
-}
-@media screen and (max-width: 833px ){
-    .topnick {
-        font-size: 1.3vh;
-    }
-
-}
-@media screen and (max-width: 733px ){
-    .topnick {
-        font-size: 1vh;
-    }
-
-}
-@media screen and (max-width: 433px ){
-    .topnick {
-        font-size: 0.9vh;
-    }
-
 }
