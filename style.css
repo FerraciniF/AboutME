@@ -27,6 +27,9 @@ body {
     font-size: 2vw;
     width: max-content;
 }
+.placeholder{
+    text-decoration: none
+}
 @media screen and (max-width: 600px ){
     .topnick {
         width: min-content;
